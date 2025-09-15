@@ -58,7 +58,7 @@ public class CreateCamapignTest extends BaseClass {
 		wait.until(ExpectedConditions.visibilityOf(toastMsg));
 
 		String msg = toastMsg.getText();
-		System.out.println(msg);
+		//System.out.println(msg);
 		Assert.assertEquals(msg,"Campaign "+campaignName +" Successfully Added","Both the not equal");
 //		if (msg.contains("Successfully Added")) {
 //			System.out.println("Campign created successfully");
