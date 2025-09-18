@@ -86,11 +86,11 @@ public class BaseClass {
 //	WebDriverManager.chromedriver().setup();
 //	WebDriverManager.edgedriver().setup();
 	// launch the browser
-			if (Browser.equalsIgnoreCase("edge")) {
+			if (BROWSER.equalsIgnoreCase("edge")) {
 				driver = new EdgeDriver();
-			} else if (Browser.equalsIgnoreCase("chrome")) {
+			} else if (BROWSER.equalsIgnoreCase("chrome")) {
 				driver = new ChromeDriver();
-			} else if (Browser.equalsIgnorecase("firefox")) {
+			} else if (BROWSER.equalsIgnoreCase("firefox")) {
 				driver = new FirefoxDriver();
 			}
 			 driver=new ChromeDriver(settings);
